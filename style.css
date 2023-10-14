@@ -1,0 +1,176 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .class {
+    margin: 20px;
+    margin: 10px;
+    margin: 30px;
+  }
+  
+  div p {
+    color: blue;
+  }
+  
+  article {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid black;
+  }
+  
+  .style-m1 {
+    color: red;
+  }
+  
+  #style-m2 {
+    color: blue;
+  }
+  
+  .style-m1#style-m2 {
+    color: purple;
+  }
+  
+  div.box {
+    border: 2px solid darkred;
+    padding: 15px;
+    margin: 32px;
+  }
+  
+  p.C1_1 {
+    border: 5px dotted blue;
+    padding: 2px, 5px, 10px, 15px;
+  }
+  
+  p.C2_1 {
+    width: 100rem;
+    height: 50rem;
+    border: 10px dotted green;
+  }
+  
+  p.C2_2 {
+    width: 75vh;
+    height: 60vh;
+    border: 5px dotted yellow;
+  }
+  
+  
+  p.C3_1 {
+    border: 1px dashed blue
+  }
+  
+  p.C3_2 {
+    border: 1px solid green
+  }
+  
+  p.C3_3 {
+    border: 1px double yellow
+  }
+  
+  
+  p.C3_4 {
+    border: 1px groove black
+  }
+  
+  p.C3_5 {
+    border: 1px ridge orange
+  }
+  
+  p.C3_6 {
+    border: 1px inset pink
+  }
+  
+  p.C3_7 {
+    border: 1px outset brown
+  }
+  
+  p.C3_8 {
+    border: 1px none violet
+  }
+  
+  p.C3_9 {
+    border: 1px hidden magenta
+  }
+  
+  p.C4_1 {
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    border: 1px solid green;
+    box-sizing: border-box;
+  }
+  
+  p.C5_1 {
+    width: 175px;
+    height: 300px;
+    padding: 20px;
+    border: 1px solid green;
+    box-sizing: border-box;
+  }
+  
+  
+  p.C5_2 {
+    width: 300px;
+    height: 50px;
+    overflow: visible;
+    border: 1px solid green;
+  }
+  
+  p.C5_3 {
+    width: 300px;
+    height: 50px;
+    overflow: hidden;
+    border: 1px solid green;
+  }
+  
+  p.C5_4 {
+    width: 300px;
+    height: 50px;
+    overflow: scroll;
+    border: 1px solid green;
+  }
+  
+  p.C5_5 {
+    width: 300px;
+    height: 50px;
+    overflow: auto;
+    border: 1px solid green;
+  }
+  
+  .my-children {
+    background-color: red;
+  }
+  
+  .my-descendants {
+    background-color: blue;
+  }
+  
+  .family-my-descendant {
+    background-color: green;
+  }
+  
+  .C6_1 {
+    outline: solid blue 10px;
+    border: 10px solid green;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  
+  
+  .C8_1 {
+    background-image: url('html_lab_image.jpg');
+    height: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .C8_2 {
+    background-image: url('html_lab_image.jpg');
+    height: 10px;
+    background-position: left;
+    background-repeat: repeat;
+  
+  }

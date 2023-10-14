@@ -1,0 +1,170 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+<title>replit</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<script src="script.js"></script>
+</head>
+<body>
+    
+</body>
+
+
+
+
+
+
+<a href="index1.html"><button>Goto HTML page 2 </button></a>
+
+  <div>
+    <h2> I. Selectors, combinators and pseudo-classes</h2>
+  </div>
+
+  <h2>1. Selectors</h2>
+  <article> 1.1: Using type selector add margin, padding and border to each on the page- with the following
+    parameters
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid black </article>
+  <div>
+    <p class="style-m1"> 1.2 : style-m1: Using class selector change font color of element with class .style-me1 to
+      red
+    </p>
+
+    <p id="style-m2">1.3: Using id selector change font color of element with id #style-me2 to blue</p>
+  </div>
+
+  <p class="style-m1" id="#style-me2">1.4 Using specific selector change font color of the element that has both class
+    of 'style-me1'and id of #style-me2 to purple. </p>
+
+  <h2>2.Combinators<i> To do!</i></h2>
+
+  <p class="my-descendants-are-styled"> 2.1 Using descendant combinator style all the p elements that are descendants of
+    '.my-descendants-are-styled'. Set their background to red.
+  <ul class="my-children">
+    <li> Child1</li>
+    <li> child 2</li>
+    <li> child 3</li>
+    <li> child 4</li>
+    <li> child 5</li>
+    <li>
+      <ol class="my-descendants">
+        <li> Grandchild 1</li>
+        <li> Grandchild 2</li>
+      </ol>
+    </li>
+  </ul>
+
+
+  </p>
+
+
+  <p class="2_2"> Using child combinator style all the p elements that are children of .my-children-are-styled. Set
+    their
+    background to red. </p>
+  <ul class="family-my-children">
+    <li> Child1</li>
+    <li> child 2</li>
+    <li> child 3</li>
+    <li> child 4</li>
+    <li> child 5</li>
+    <li>
+      <ol class="family-my-descendants">
+        <li> Grandchild 1</li>
+        <li> Grandchild 2</li>
+      </ol>
+    </li>
+  </ul>
+
+  <h2>II. Box model and common properties</h2>
+
+  <div class="box">
+    1. Set margin and padding on an element with class .box
+
+    <p class="C1_1">
+      1.1 Try with different margin and padding syntaxes - 4-value syntax, 2-value syntax and 1-value syntax. Use
+      pixels
+      as units for margin and padding but do not hesitate to try out other types of units.
+    </p>
+    <p class="C2_1">
+      2. width and height
+      <br>
+      2_1 Set width and height using different dimension units: px, rem, vh. vw
+    </p>
+    <p class="C2_2"> Observe how the third box retains height styled via style attribute. Usually vh units are
+      associated with height and vw with width.
+      2_3 Try resizing the browser window while the height depends on the vw and vh units. What can you observe?
+      <br>
+
+      Answer: Observed that the size is altering based on the size of the browser window
+    </p>
+  </div>
+  <h2>3. border</h2>
+  <div>
+    <p> Set border on the element, try different border styles and colors
+      Make the border 10px thick and observe how thickness of the border moves elements in each direction.</p>
+    <p class="C3_1"> Dashed </p>
+    <p class="C3_2"> Solid </p>
+    <p class="C3_3"> Double</p>
+    <p class="C3_4"> groove</p>
+    <p class="C3_5"> ride</p>
+    <p class="C3_6"> inset</p>
+    <p class="C3_7"> outset</p>
+    <p class="C3_8"> none</p>
+    <p class="C3_9"> hidden</p>
+
+  </div>
+
+  <h2>4. box-sizing</h2>
+  <p class="C4_1"> Test different values of box-sizing. How is box-sizing affecting width and height of the element?</p>
+
+
+  <h2>5. text-overflow</h2>
+  <p class="C5_1"> 5.1 Make text overflow outside of the element by setting width and height to smaller values so the
+    text in a
+    second
+    box goes over the box borders.
+    <br>
+    5.2 Set overflow CSS rule for .box class - test different values of overflow. What does they affect
+    the box? (Overflow, hidden, scroll, auto)
+  </p>
+  <p class="C5_2">Overflow Overflow Overflow Overflow Overflow Overflow Overflow Overflow Overflow Overflow Overflow
+    Overflow Overflow Overflow Overflow Ove </p>
+  <p class="C5_3">hidden hidden hidden hidden hidden hidden hidden hidden hidden hidden hidden hidden hidden hidden
+    hidden hidden hidden hidden hidden hidden hidden hidden </p>
+  <p class="C5_4">scroll scroll scroll scroll scroll scroll scroll scroll scroll scroll scroll scroll scroll scroll
+    scroll scroll scroll scroll scroll scroll scroll scroll </p>
+  <p class="C5_5">auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto
+    auto auto auto auto auto auto auto auto auto auto auto auto auto </p>
+
+  <hr>
+  </p>
+  <h2> 6. outline</h2>
+  <p class="C6_1">6.1 Set a wide outline (10px) on the .box. Observe that setting the outline does not move elements
+    around like
+    with
+    borders.</p>
+  <hr>
+
+  <h2>7. Border-radius</h2>
+  <p clas="C7_1">7.1 Set border-radius on the .box element. Start by trying out different values express in pixels e.g.
+    20px</p>
+  <p class="C7_2"> 7.2 Setting border-radius to 50% together with width=height will make the element look like a circle.
+    If the
+    width
+    is different from height then the element will become an ellipsis. Not that this is just a visual effect of the
+    border and when you inspect the HTML element is still an rectangle.</p>
+  <hr>
+  8. background image
+  <p class="C8_1">8.1 Set background image using background property. Image to use is located in
+    ./assets/images/img1.png file
+  </p>
+  <p class="C8_2"> 8.2 Set background-size to `contain`. Do not hesitate to try other values.8.3 Set background-repeat
+    to `no-repeat`. Do not hesitate to try other values.8.4 Set background-position `to center`. Do not hesitate to try
+    other values.</p>
+
+    </html>

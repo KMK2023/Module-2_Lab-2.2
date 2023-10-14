@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <h2>V. Styling links </h2>
+
+  <p>In this section we will be styling links in different states:
+    • a, a:link - link in its untouched form
+    • a:visited - link that has been visited
+    • a:hover - link that is hovered with a cursor
+    • a:active - link that has been “hovered” using keyboard
+    • a:focus - link that has been clicked but the cursor is still not released or the browser is navigating to another
+    webpage
+    Note that links come with a lot of styling from the browser. It is common to reset all those styles before
+    developing
+    CSS to simplify the styling process.
+    1. a, a:link, a:visited
+    1.1 Style link in its basic form, set font color (using `color` CSS property)
+    1.2 Consider using color, font-size, font-weight, font-decoration and border for your styles and feel free to use
+    any
+    other styles.
+    2. a:hover, :active, a:focus
+    3. Many websites do not apply special styling to a:visited links. Extract a:visited link and apply a style using CSS
+    for it.
+    2.1. If you do not create style for a:visited the styles will leak from `a` and `a:link` CSS rules</p>
+
+  <h2>VI. calc() </h2>
+  <p>In this section we will perform simple calculations using calc.
+    1. Try setting `width: 100vw;` on .calc-style class. The element should overflow outside of the screen.
+    1.1 Set `width: calc(100vw - 100px);` on .calc-style class. Now the element occupies 100px less than the entire
+    width
+    of the screen.
+    1.3 While in this example we could just use `width: 100%`, Sometimes you will stumble upon scenarios where the
+    `width:
+    100%` solution does not work due to other CSS properties. calc() is not commonly used and should be avoided. At the
+    same time a lot of CSS frameworks use calc() internally so when we are using CSS frameworks we usually do not need
+    to
+    use calc().</p>
+
+
+
+</body>
+
+</html>
